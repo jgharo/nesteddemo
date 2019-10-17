@@ -13,7 +13,7 @@
 <p>
   <ul>
     <% @project.tasks.each do |tasks| %>
-      <li><b>Task: </b><%= tasks.description %></li>
+      <li><b>Task: </b><% tasks.description %></li>
     <% end %>
   </ul>
 </p>

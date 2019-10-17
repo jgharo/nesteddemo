@@ -12,8 +12,8 @@
 
 <p>
   <ul>
-    <% @project.tasks.each do |tasks| %>
-      <li><b>Task: </b><%= tasks.description %></li>
+    <% @project.tasks.each do |task| %>
+      <li><b>Task: </b><% tasks.description %></li>
     <% end %>
   </ul>
 </p>
